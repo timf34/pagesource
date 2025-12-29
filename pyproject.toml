@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
 authors = [
-    { name = "Developer" }
+    { name = "Tim Farrelly", email = "timf34@gmail.com" }
 ]
 keywords = ["web", "scraping", "playwright", "cli", "devtools"]
 classifiers = [
@@ -33,6 +33,11 @@ dependencies = [
 
 [project.scripts]
 pagesource = "pagesource.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/timf34/pagesource"
+Repository = "https://github.com/timf34/pagesource"
+Issues = "https://github.com/timf34/pagesource/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/pagesource"]
