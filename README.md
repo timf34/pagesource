@@ -2,6 +2,10 @@
 
 A Python CLI tool that captures all resources loaded by a webpage (like browser DevTools Sources tab) and saves them with the original directory structure.
 
+<div align="center">
+  <img src="assets/explainer.png" alt="Explainer diagram" width="600">
+</div>
+
 ## Installation
 
 ```bash
